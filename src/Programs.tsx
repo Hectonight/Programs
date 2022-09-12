@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { embed_data } from "./data";
-import "./styles/Programs.css";
 
 interface embed_key_data extends embed_data {
   key: number;
