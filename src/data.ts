@@ -58,7 +58,7 @@ let data: embed_data[] = [
   {
     name: "Preact",
     website: "https://preactjs.com/",
-    shadow_color: "673ab8aa",
+    shadow_color: "#673ab8aa",
   },
   {
     name: "Svelte",
