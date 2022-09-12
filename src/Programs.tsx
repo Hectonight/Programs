@@ -9,7 +9,7 @@ export default function Program(embed: embed_key_data): JSX.Element {
   const [hover, setHover] = useState(false);
 
   const imgAlt = `${embed.name} Logo`;
-  const imgSrc = `./src/assets/${embed.name.toLowerCase()}.svg`;
+  const imgSrc = `./assets/icons/${embed.name.toLowerCase()}.svg`;
   const shadow = { filter: `drop-shadow(0 0 2em ${embed.shadow_color})` };
 
   return (
