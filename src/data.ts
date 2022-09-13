@@ -8,7 +8,7 @@ let data: embed_data[] = [
   {
     name: "Python",
     website: "https://www.python.org/",
-    shadow_color: "",
+    shadow_color: "#3178c6aa",
   },
   {
     name: "React",
@@ -23,7 +23,7 @@ let data: embed_data[] = [
   {
     name: "Github",
     website: "https://github.com",
-    shadow_color: "",
+    shadow_color: "#808080aa",
   },
   {
     name: "Gitlab",
@@ -33,7 +33,7 @@ let data: embed_data[] = [
   {
     name: "MySQL",
     website: "https://www.mysql.com/",
-    shadow_color: "",
+    shadow_color: "##f7df1eaa",
   },
   {
     name: "Typescript",
