@@ -10,7 +10,7 @@ on:
     branches: ["master"]
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,8 +21,4 @@ jobs:
           npm ci
           npm run build
           sh ./icons.sh
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    setps:
-      - run: sh ./deploy.sh
+          sh ./deploy.sh
