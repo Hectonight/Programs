@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
@@ -12,15 +11,6 @@ on:
 
 jobs:
   build:
-=======
-name: Build and Deploy
-on: [push]
-permissions:
-  contents: write
-jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
->>>>>>> 9a42987a148e91b2c53d55353c3c234961f590cc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,22 +21,5 @@ jobs:
           npm ci
           npm run build
           sh ./icons.sh
-
-<<<<<<< HEAD
-    steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build --if-present
     deploy:
       - run: sh ./deploy.sh
-=======
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist # The folder the action should deploy.
->>>>>>> 9a42987a148e91b2c53d55353c3c234961f590cc
