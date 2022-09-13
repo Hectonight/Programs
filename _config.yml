@@ -1,9 +1,5 @@
 title: Programs
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "Programs/" # the subpath of your site, e.g. /blog
 url: "https://aiwaffle.github.io/Hectonight/Programs/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Hectonight
-
-# Build settings
-plugins:
-  - jekyll-fee
