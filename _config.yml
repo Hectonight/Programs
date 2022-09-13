@@ -1,10 +1,6 @@
-lsi: false
-safe: true
-source: "./"
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: Programs
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://aiwaffle.github.io/Hectonight/Programs/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Hectonight
+
