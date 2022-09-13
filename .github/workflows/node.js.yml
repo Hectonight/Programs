@@ -22,4 +22,7 @@ jobs:
           npm run build
           sh ./icons.sh
     deploy:
-      - run: sh ./deploy.sh
+      needs: build
+      runs-on: ubuntu-latest
+      setps:
+        - run: sh ./deploy.sh
