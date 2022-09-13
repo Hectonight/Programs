@@ -2,6 +2,7 @@
   "name": "programming",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Hectonight.github.io/Programs",
   "type": "module",
   "scripts": {
     "dev": "vite",
