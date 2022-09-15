@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && sh ./icons.sh",
+    "dev-MacOS": "sh ./reload_icons.sh && vite",
+    "build": "tsc && vite build",
+    "build-MacOS": "tsc && vite build && sh ./icons.sh",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -31,11 +31,6 @@ let data: embed_data[] = [
     shadow_color: "#ff3e00aa",
   },
   {
-    name: "MySQL",
-    website: "https://www.mysql.com/",
-    shadow_color: "##f7df1eaa",
-  },
-  {
     name: "Typescript",
     website: "https://www.typescriptlang.org/",
     shadow_color: "#3178c6aa",
