@@ -26,7 +26,7 @@ export default function Program(embed: embed_data): JSX.Element {
       </div>
       <div>
         <a href={embed.website} target="_blank">
-          {embed.name}
+          {embed.name} Website
         </a>
       </div>
     </div>
