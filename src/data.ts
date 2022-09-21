@@ -38,7 +38,7 @@ let data: embed_data[] = [
   {
     name: "Vite",
     website: "https://vitejs.dev/",
-    img: "../vite.svg",
+    img: "https://vitejs.dev/logo-with-shadow.png",
   },
   {
     name: "JavaScript",
@@ -94,7 +94,7 @@ let data: embed_data[] = [
   {
     name: "Rust",
     website: "https://www.rust-lang.org/",
-    img: "http://rust-lang.org/logos/rust-logo-512x512.png",
+    img: "https://rust-lang.org/logos/rust-logo-512x512.png",
   },
   {
     name: "GraphQL",
