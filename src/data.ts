@@ -424,6 +424,11 @@ let data: embed_data[] = [
     website: "https://cmake.org/",
     img: "https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png",
   },
+  {
+    name: "Jekyll",
+    website: "https://jekyllrb.com/",
+    img: "https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png",
+  },
 ];
 
 export default data;
