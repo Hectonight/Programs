@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="-256 -256 512 512" xml:space="preserve"
-  xmlns="http://www.w3.org/2000/svg">
-  <path d="m0-256 221.7 128v256l-221.7 128-221.7-128v-256z" fill="#673ab8"/>
-  <ellipse transform="rotate(52.5)" rx="75px" ry="196px" fill="none" stroke="#fff" stroke-width="16px"/>
-  <ellipse transform="rotate(-52.5)" rx="75px" ry="196px" fill="none" stroke="#fff" stroke-width="16px"/>
-  <circle r="34" fill="#fff"/>
-</svg>

@@ -1,13 +1,14 @@
 import data from "./data";
 import Program from "./Programs";
+import shuffle from "./Shuffle";
 
 function App(): JSX.Element {
-  const elements: JSX.Element[] = data.map((dat, index) => (
+  const elements: JSX.Element[] = shuffle(data).map((dat, index) => (
     <Program
       key={index}
       name={dat.name}
+      img={dat.img}
       website={dat.website}
-      shadow_color={dat.shadow_color}
     ></Program>
   ));
 
