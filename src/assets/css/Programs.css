@@ -37,6 +37,7 @@ h1 {
   top: -1px;
   padding: 10px;
   background-color: #242424;
+  z-index: 1;
 }
 
 img:hover {
