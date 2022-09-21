@@ -34,8 +34,9 @@ h1 {
   justify-content: center;
   align-items: center;
   position: sticky;
-  top: -1;
+  top: -1px;
   padding: 10px;
+  background-color: #242424;
 }
 
 img:hover {
